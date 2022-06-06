@@ -1,0 +1,9 @@
+一二三范式https://segmentfault.com/a/1190000013695030
+索引散列https://www.jianshu.com/p/950e1692ae7e
+*[MySQL系列]https://blog.csdn.net/zwx900102/article/details/106379268
+前缀索引https://zhuanlan.zhihu.com/p/400901940
+全文索引https://zhuanlan.zhihu.com/p/88275060
+*锁的分类https://zhuanlan.zhihu.com/p/52678870
+*共享锁和排他锁https://zhuanlan.zhihu.com/p/52879825
+数据库执行https://zhuanlan.zhihu.com/p/52988696
+B树索引和hash索引应用场景和区别https://www.jianshu.com/p/32aae420b5dd
