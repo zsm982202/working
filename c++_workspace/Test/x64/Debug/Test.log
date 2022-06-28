@@ -1,2 +1,2 @@
 ﻿  virtualTest.cpp
-  Test.vcxproj -> C:\Users\zsm\Desktop\找工作\c++_workspace\Test\x64\Debug\Test.exe
+C:\Users\zsm\Desktop\找工作\c++_workspace\Test\virtualTest.cpp(9,16): error C2633: “Animal”:“inline”是构造函数的唯一合法存储类

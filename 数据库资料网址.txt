@@ -7,3 +7,4 @@
 *共享锁和排他锁https://zhuanlan.zhihu.com/p/52879825
 数据库执行https://zhuanlan.zhihu.com/p/52988696
 B树索引和hash索引应用场景和区别https://www.jianshu.com/p/32aae420b5dd
+*联合索引https://zhuanlan.zhihu.com/p/115778804

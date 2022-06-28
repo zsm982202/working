@@ -6,12 +6,15 @@ using namespace std;
 
 class Animal {
 public:
+	/*virtual Animal() {
+	
+	}*/
+
 	void func1(int tmp) {
 		cout << "animal func1-" << tmp << endl;
 	}
 
-	void func1(const char* s)//函数的重载
-	{
+	void func1(const char* s) {
 		cout << "animal func1-" << s << endl;
 	}
 
@@ -26,23 +29,19 @@ public:
 
 class Fish :public Animal {
 public:
-	void func1()//函数的重定义 会隐藏父类同名方法
-	{
+	//函数的重定义 会隐藏父类同名方法
+	void func1() {
 		cout << "fish func1" << endl;
 	}
-
-	void func2(int tmp) //函数的重写， 覆盖父类的方法 override
-	{
+	//函数的重写， 覆盖父类的方法 override
+	void func2(int tmp) {
 		cout << "fish func2-" << tmp << endl;
 	}
-
-	void func3(int tmp) { //函数的重定义 会隐藏父类同名方法
+	//函数的重定义 会隐藏父类同名方法
+	void func3(int tmp) {
 		cout << "fish func3-" << tmp << endl;
 	}
 };
-
-//extern int a[];
-//extern int b;
 
 int main() {
 	Fish fi;
@@ -74,29 +73,6 @@ int main() {
 	//animal func1-I'm an animal
 	an.func2(1);
 	//animal virtual func2-1
-	// 
-	
-	////system("pause");
-
-	//cout << endl;
-	//const int i = 1;
-	//const int a = i;
-	//int* p = const_cast<int*>(&a);
-	//(*p)++;
-	//cout << *p << endl;
-	//cout << a << endl;
-	//cout << endl;
-
-	//int num = 0x00636261;//用16进制表示32位int，0x61是字符'a'的ASCII码
-	//int* pnum = &num;
-	//// char* pstr = reinterpret_cast<char*>(pnum);
-	//char* pstr = (char*)(pnum);
-	//cout << "pnum指针的值: " << pnum << endl;
-	//cout << "pstr指针的值: " << static_cast<void*>(pstr) << endl;//直接输出pstr会输出其指向的字符串，这里的类型转换是为了保证输出pstr的值
-	//cout << "pnum指向的内容: " << hex << *pnum << endl;
-	//cout << "pstr指向的内容: " << pstr << endl;
-	/*extern int a[];
-	cout << a[0] << endl;*/
-	//cout << b << endl;
 	return 0;
 }
+
