@@ -1,0 +1,8 @@
+hash扩容死链https://blog.csdn.net/littlehaes/article/details/105241194
+MashMap链表树化https://zhuanlan.zhihu.com/p/94569301
+HashMap为什么是线程不安全https://blog.csdn.net/swpu_ocean/article/details/88917958
+1.7ConcurrentHashMap https://zhuanlan.zhihu.com/p/31614308
+1.7&1.8ConcurrentHashMap https://www.jianshu.com/p/865c813f2726
+内部类http://c.biancheng.net/view/1028.html
+深浅复制https://www.cnblogs.com/1314xf/p/10139971.html
+final重排序https://juejin.cn/post/7035472521713418248
