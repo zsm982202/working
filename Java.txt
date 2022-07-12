@@ -6,3 +6,7 @@ HashMap为什么是线程不安全https://blog.csdn.net/swpu_ocean/article/detai
 内部类http://c.biancheng.net/view/1028.html
 深浅复制https://www.cnblogs.com/1314xf/p/10139971.html
 final重排序https://juejin.cn/post/7035472521713418248
+CAS https://www.jianshu.com/p/eac466494477
+ThreadLocal https://zhuanlan.zhihu.com/p/102744180   https://zhuanlan.zhihu.com/p/238231572
+run和start https://www.jianshu.com/p/88c5cd468b0e
+线程池https://zhuanlan.zhihu.com/p/150057783

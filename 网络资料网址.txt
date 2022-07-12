@@ -1,3 +1,6 @@
 粘包拆包https://zhuanlan.zhihu.com/p/356225028
 Redis为什么那么快https://zhuanlan.zhihu.com/p/57089960
 HTTP2.0 https://vue3js.cn/interview/http/1.0_1.1_2.0.html#%E4%B8%89%E3%80%81http2-0
+HTTP https://cloud.tencent.com/developer/article/1526057
+url渲染过程https://zhuanlan.zhihu.com/p/168523815
+同步IO https://www.cnblogs.com/langzibin/p/7755783.html
